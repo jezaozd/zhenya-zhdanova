@@ -76,7 +76,7 @@ figure{margin:0}
 .names{list-style:none;margin:0;padding:0;border-top:2px solid var(--c);counter-reset:n}
 .names li{counter-increment:n;display:flex;gap:12px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line);font:400 clamp(1.05rem,1.3vw,1.25rem)/1.2 var(--serif)}
 .names li::before{content:counter(n,decimal-leading-zero);font:600 11px/1 var(--sans);color:var(--c);min-width:1.6em}
-.hr-press{margin-top:clamp(28px,4vh,40px);max-width:70ch;color:var(--ink-2);border-left:3px solid var(--c);padding-left:18px}
+.hr-press{margin-top:clamp(28px,4vh,40px);max-width:70ch;color:var(--ink-2);font:400 clamp(1.2rem,1.6vw,1.45rem)/1.35 var(--serif)}
 
 /* ---------- вещи ---------- */
 .things{padding:clamp(80px,12vh,140px) var(--pad);background:var(--paper-2);display:grid;gap:clamp(32px,5vh,52px)}
@@ -104,21 +104,21 @@ figure{margin:0}
 
 /* ---------- курс ---------- */
 .course{background:var(--c);color:var(--paper);padding:clamp(80px,12vh,140px) var(--pad);display:grid;gap:24px}
-.course .cap{color:#BFD3D1}
+.course .cap{color:var(--paper)}
 .course h2{font-size:clamp(2.6rem,7vw,7rem);line-height:.9;letter-spacing:.02em}
-.co-lead{max-width:60ch;font-size:clamp(1.05rem,1.35vw,1.25rem);color:#E3ECEA}
+.co-lead{max-width:60ch;font-size:clamp(1.05rem,1.35vw,1.25rem);color:var(--paper)}
 .grads{list-style:none;margin:8px 0 12px;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid rgba(241,238,231,.3)}
 .grads li{display:grid;gap:6px;padding:20px 18px 20px 0;border-bottom:1px solid rgba(241,238,231,.3)}
 .grads b{font:400 1.5rem/1.1 var(--serif);font-weight:400}
-.grads span{font-size:15px;color:#C9D9D7}
+.grads span{font-size:15px;color:var(--paper)}
 
 /* ---------- ещё ---------- */
 .more{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
 .mo{display:grid;gap:8px;align-content:end;min-height:300px;padding:28px var(--pad);text-decoration:none;color:var(--paper);background:var(--c);transition:filter .3s}
 .mo:hover{filter:brightness(1.12)}
-.mo .cap{color:rgba(241,238,231,.8)}
+.mo .cap{color:var(--paper)}
 .mo b{font:400 clamp(1.8rem,2.8vw,2.6rem)/1 var(--serif);font-weight:400}
-.mo span:last-child{font-size:15px;color:rgba(241,238,231,.85)}
+.mo span:last-child{font-size:15px;color:var(--paper)}
 
 /* ---------- связь ---------- */
 .contact{padding:clamp(90px,15vh,170px) var(--pad);display:grid;gap:22px;justify-items:start}
